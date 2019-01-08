@@ -34,6 +34,7 @@ In another terminal window, run a command that will produce a request to the ser
 To terminate the program, hit ^C in the terminal window where the server is running.
 
 4) Caching Mechanism
+
 LFU - Least Frequently Used. When new items are added to the cache, they are initialized with a frequency of 0. Then every time a request comes in for a particular cache entry, that entry's frequency is incremented by one. Then when a new item needs to get added to a full cache, the entry with the lowest frequency (first in cache if tie) is replaced
 
 5) Web Server Logging:
